@@ -28,4 +28,4 @@ run docker with
 docker build --platform linux/amd64 -t face_api . 
 
 ```
-docker run -d --name face_api -p 9000:9000  --restart unless-stopped face_api
+docker run -d --name face_api -p 9000:9000 --platform linux/amd64  --restart unless-stopped face_api
